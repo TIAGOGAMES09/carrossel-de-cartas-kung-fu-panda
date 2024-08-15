@@ -105,28 +105,28 @@ body{
 
 .fundo-1{
 
-    background: url(../img/fundo-1.0.jpeg) no-repeat;
+    background: url(../img/fundo-1.jpeg) no-repeat;
     box-shadow: rgb(139,0,0) 0px 22px 70px 4px; 
     
 }
 
 .fundo-2{
 
-    background: url(/src/img/fundo-2.0.jpg);
+    background: url(../img/fundo-2.jpg);
     box-shadow: rgb(147,112,219) 0px 22px 70px 4px;
 
 }
 
 .fundo-3{
 
-    background: url(../img/fundo-3.0.jpeg) no-repeat;
+    background: url(../img/fundo-3.jpeg) no-repeat;
     box-shadow: rgb(72,61,139) 0px 22px 70px 4px; 
 
 }
 
 .fundo-4{
 
-    background: url(../img/fundo-4.0.jpeg) no-repeat;
+    background: url(../img/fundo-4.jpeg) no-repeat;
     box-shadow: rgb(27, 150, 184) 0px 22px 70px 4px; 
 
 }
