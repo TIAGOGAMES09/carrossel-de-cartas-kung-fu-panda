@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kung Fu Panda</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Langar&family=Platypi:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="src/img/shuriken.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+
+</head>
+
+<body>
+    <div class="button-container">
+        <button id="playButton">
+            <img src="./src/img/play-button-2.png" alt="Play Sound">
+        </button>
+        <button id="stopButton">
+            <img src="./src/img/pause.png" alt="Stop Sound">
+        </button>
+
+        <audio id="musica" src="./src/audio/musica.mp3"></audio>
+        
+    </div>
+
+
+    
+
+    <header class="cabecalho">
+     
+        <img src="/src/img/titulo.png" alt="" class="img-titulo">
+    </header>
+
+    <main class="slider">
+
+
+
+        <button class="btn-seta btn-voltar">
+
+            <img src="src/img/next.png" alt="voltar" id="seta-voltar" class="btn-img">
+
+        </button>
+
+        <ul class="lista-personagens">
+
+            <li class="cartao fundo-1 selecionado">
+
+                <div class="informacoes">
+
+                    <h2 class="nome">Zheng Xing</h2>
+                    <p class="vida">HP  1350</p>
+
+                </div>
+
+                <div class="container-img">
+
+                    <img src="src/img/zheng.png" alt="pantera-preta" class="img-personagens">
+
+                </div>
+
+                <div class="descricao scrollbox">
+
+                    <h3 class="titulo">DESCRIÇÃO</h3>
+
+                    <p class="texto">
+                        Codinome:
+                        Zheng
+                    </p>
+                    <p class="texto">
+                        Guilda:
+                        Xin Whung
+                    </p>
+
+                    <p class="texto">
+                        Nascido em um pequeno vilarejo, que foi atacado pelos Whing Xan. 
+                        Desde então busca vingança derrotando um a um da guilda inimiga.
+                    </p>
+                    <p class="texto">
+                        Habilidade principal:
+                        Condena as almas dos seus inimigos.
+                    </p>
+                    <p class="texto">
+                        Origem dos poderes:
+                        Teve um intenso treinamento de Kong Fu com um ancião que 
+                        no final de seu treinamento teve um ritual no qual concedeu 
+                        seus poderes.
+                    </p>
+
+                </div>
+
+
+            </li>
+            <li class="cartao fundo-2">
+
+                <div class="informacoes">
+
+                    <h2 class="nome">Mei Lian</h2>
+                    <p class="vida">HP  1150</p>
+
+                </div>
+
+                <div class="container-img">
+
+                    <img src="src/img/mei-lian.png" alt="uma-coelha" class="img-personagens">
+
+                </div>
+
+                <div class="descricao scrollbox">
+
+                    <h3 class="titulo">DESCRIÇÃO</h3>
+
+                    <p class="texto">
+                        Codinome: ML 
+                    </p>
+                    <p class="texto">
+                        Guilda: Vale da Paz 
+                    </p>
+                    <p class="texto">
+                        Mei é uma coelha da raça Mini Lion que cresceu no Vale da Paz.O sonho dela sempre foi se juntar aos 5 Furiosos. Seu melhor amigo de infância foi Po, que possuía o mesmo sonho que ela. 
+                        Após muito esforço, se tornou integrante dos 5 Furiosos com seu melhor amigo. Ela era a única participante que possuía incríveis poderes de telecinese.
+                        ML era a integrante mais forte, inteligente e amigável do grupo, se tornando essencial para o combate de crimes. Porém, devido a ela revelar seu grande sonho de ser um Dragão Guerreiro, seus amigos acabaram entendendo que ela queria roubar o lugar de Po e foi expulsa pelo grupo. 
+                        Após isso, a personagem decidiu revelar sua verdadeira natureza sombria, se tornou a vilã mais forte da China e acabou se aliando com Tai Lung, espalhando o terror pelo país.  
+                    </p>
+                    <p class="texto">
+                        Habilidade principal:
+                        Telecinese
+                    </p>
+                    <p class="texto">
+                        Origem dos poderes:
+                        Mei Lian descobriu seus poderes atraés de uma meditação, ela é transportado para uma dimensão onde um ancião o ensina a dominar o poder da telecinese, um dom esquecido pela humanidade.
+                    </p>
+                    
+
+                </div>
+
+
+            </li>
+
+            <li class="cartao fundo-3">
+
+                <div class="informacoes">
+
+                    <h2 class="nome">Ling</h2>
+                    <p class="vida">HP  1280</p>
+
+                </div>
+
+                <div class="container-img">
+
+                    <img src="src/img/lince.png" alt="lince" class="img-personagens">
+
+                </div>
+
+                <div class="descricao scrollbox">
+
+                    <h3 class="titulo">DESCRIÇÃO</h3>
+
+                    <p class="texto">
+                        Codinome: Ling
+                    </p>
+                    <p class="texto">
+                        Guilda: Vila da Paz
+                    </p>
+                    <p class="texto">
+                        Mei Ling, uma lince-das-neves das Montanhas Kunlun, desenvolveu um estilo de kung fu baseado na furtividade e agilidade para proteger sua vila de bandidos. Após derrotar os invasores, suas habilidades se tornaram lendárias. Ela se juntou a Po e os Cinco Furiosos, trazendo suas técnicas de combate silencioso e precisão para a equipe, enquanto busca proteger os outros e superar seus próprios desafios.
+
+                    </p>
+                    <p class="texto">
+                        Habilidade principal:
+                        Habilidades lendárias dekong fu.
+                    </p>
+                    <p class="texto">
+                        Origem dos poderes: após muito treino.          
+                    </p>
+                    
+
+                </div>
+            </li>     
+
+                <li class="cartao fundo-4">
+
+                    <div class="informacoes">
+    
+                        <h2 class="nome"> Long Wei</h2>
+                        <p class="vida">HP  1280</p>
+    
+                    </div>
+    
+                    <div class="container-img">
+    
+                        <img src="src/img/dragao.png" alt="dragao" class="img-personagens">
+    
+                    </div>
+    
+                    <div class="descricao scrollbox">
+    
+                        <h3 class="titulo">DESCRIÇÃO</h3>
+    
+                        <p class="texto">
+                            Codinome: Wei 
+                        </p>
+                        <p class="texto">
+                            Guilda: Vila da Paz
+                        </p>
+                        <p class="texto">
+                            Long Wei, um dragão-do-mar nascido no Lago do Dragão Esmeralda, decidiu explorar o mundo além de seu lar para ajudar os necessitados. Usando seus poderes de manipulação da água e seu estilo de kung fu fluído, ele se tornou um aliado poderoso. Long Wei se juntou a Po e aos Cinco Furiosos para proteger o Vale da Paz e enfrentar ameaças com suas habilidades místicas.
+    
+                        </p>
+                        <p class="texto">
+                            Habilidade principal:
+                            Manipulação da água
+                        </p>
+                        <p class="texto">
+                            Origem dos poderes:após explorar o mundo e descobrir sozinho seus incríveis poderes.          
+                        </p>
+                        
+    
+                    </div>
+                </li>    
+            <li class="cartao fundo-5">
+
+                <div class="informacoes">
+
+                    <h2 class="nome">LEAN</h2>
+                    <p class="vida">HP  1100</p>
+
+                </div>
+
+                <div class="container-img">
+
+                    <img src="src/img/lean.png" alt="grilo" class="img-personagens">
+
+                </div>
+
+                <div class="descricao scrollbox">
+
+                    <h3 class="titulo">DESCRIÇÃO</h3>
+
+                    <p class="texto">
+                        Codinome:Grilo Sereno 
+                    </p>
+                    <p class="texto">
+                        Guilda: Vale da Paz 
+                    </p>
+                    <p class="texto">
+                        Lean é um jovem grilo impetuoso que chega à pacífica aldeia de Serenidade, famosa por suas habilidades em kung fu e por seu equilíbrio interior. Desejando se tornar um grande guerreiro, Lean é aceito pelo sábio mestre Shifu, mas enfrenta dificuldades devido à sua natureza descontrolada.
+
+                        Durante o treinamento, Lean descobre um pergaminho antigo sobre a técnica de kung fu chamada "A Dança da Serenidade", que exige um equilíbrio perfeito entre força e calma. Determinado a dominar a técnica, Lean mergulha em um profundo processo de autoconhecimento e prática, aprendendo a harmonizar sua energia com a tranquilidade necessária.
+
+                        Ao final, Lean se torna um mestre em "A Dança da Serenidade", compreendendo que o verdadeiro poder reside na combinação de força e serenidade, e encontra seu lugar como um guerreiro equilibrado e sábio na aldeia de Serenidade.
+
+                    </p>
+                    <p class="texto">
+                        Habilidade principal:
+                        "A Dança da Serenidade", que exige um equilíbrio perfeito entre força e calma.
+                    </p>
+                    <p class="texto">
+                        Origem dos poderes: 
+                        Através de um pergaminho antigo sobre a técnica de dança kung fu.
+                    </p>
+                    
+
+                </div>
+            </li>
+            <li class="cartao fundo-6">
+
+                <div class="informacoes">
+
+                    <h2 class="nome"> Zarifa</h2>
+                    <p class="vida">HP  1280</p>
+
+                </div>
+
+                <div class="container-img">
+
+                    <img src="src/img/jarifa.png" alt="tigresa" class="img-personagens">
+
+                </div>
+
+                <div class="descricao scrollbox">
+
+                    <h3 class="titulo">DESCRIÇÃO</h3>
+
+                    <p class="texto">
+                        Codinome: Sugg 
+                    </p>
+                    <p class="texto">
+                        Guilda: Kaje-ninja-gun
+                    </p>
+                    <p class="texto">
+                        Morava em um vilarejo nobre, onde passou por abusos durante sua adolescência realizado por homens causando um trauma enorme no seu futuro.
+                        Assim que completou 18 anos decidiu fugir buscando se tornar uma lutadora poderosa com suas garras enormes.
+                        Depois de muitos treinamentos Zarifa se tornou imortal com o poder de manipulação de causalidade, controlando toda causa e efeito das coisas, ou seja, permitindo decidir o que podia ou não acontecer, quando e como. 
+                        Voltou para se vingar de cada um, seu plano era matar todos eles individualmente, fazendo eles passarem por cada sofrimento realizado na sua adolescência, deixando seu símbolo de força registrado na pele de cada homem.
+
+                    </p>
+                    <p class="texto">
+                        Habilidade principal:
+                        Imunidade ao fogo.
+                    </p>
+                    <p class="texto">
+                        Origem dos poderes:Através de um arduo treinamento de kung fu saiu em uma grande aventura na qual encontrou o pergaminho da chama eterna.                       
+                    </p>
+                    
+
+                </div>
+            </li>
+        </ul>
+
+        <button class="btn-seta">
+
+            <img src="src/img/next.png" alt="avançar" id="seta-avancar" class="btn-img">
+
+        </button>
+
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,260 @@
+body{
+
+    background-image: url(../img/fundo-site-desfocado.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    /* background-color: black; */
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+.cabecalho{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20px;
+    
+}
+
+.cabecalho .img-titulo{
+    
+    margin-top: 40px;
+    width: 350px;
+    
+}
+
+.cabecalho .titulo{
+
+    color: #000;
+
+}
+
+.slider{
+
+    font-family: "Bona Nova SC", serif;
+    padding-top: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    margin: 30px 0;
+
+
+}
+
+.lista-personagens{
+
+    width: 320px;
+    height: 510px;
+    position: relative;
+
+}
+
+.btn-seta{
+
+    background-color: rgba(0, 0, 0, 0.0);
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    border: 0px;
+    cursor: pointer;
+    transition: background-color 0.5s ease-in-out;
+    
+
+}
+
+.btn-img{
+
+    width: 40px;
+    height: 40px;
+
+}
+
+.btn-seta:hover{
+    
+    background-color: rgba(105,105,105, 0.6);
+
+}
+
+.btn-seta.btn-voltar{
+
+    transform: rotateY(180deg);
+
+}
+
+.cartao{
+    
+    opacity: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    padding: 18px;
+    border-radius: 20px;
+    
+}
+
+.cartao.selecionado{
+
+    opacity: 1;
+    z-index: 1;
+
+}
+
+.fundo-1{
+
+    background: url(../img/fundo-1.0.jpeg) no-repeat;
+    box-shadow: rgb(139,0,0) 0px 22px 70px 4px; 
+    
+}
+
+.fundo-2{
+
+    background: url(/src/img/fundo-2.0.jpg);
+    box-shadow: rgb(147,112,219) 0px 22px 70px 4px;
+
+}
+
+.fundo-3{
+
+    background: url(../img/fundo-3.0.jpeg) no-repeat;
+    box-shadow: rgb(72,61,139) 0px 22px 70px 4px; 
+
+}
+
+.fundo-4{
+
+    background: url(../img/fundo-4.0.jpeg) no-repeat;
+    box-shadow: rgb(27, 150, 184) 0px 22px 70px 4px; 
+
+}
+
+.fundo-5{
+
+    background: url(../img/fundo-5.0.jpeg) no-repeat;
+    box-shadow: rgb(165,42,42) 0px 22px 70px 4px;
+
+}
+
+.fundo-6{
+
+    background: url(../img/fundo-6.0.jpeg) no-repeat;
+    box-shadow: rgb(255,69,0) 0px 22px 70px 4px;
+
+}
+
+.cartao .informacoes{
+
+    background-color: rgba(255,250,240, 0.8);
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: solid rgba(77, 57, 46, 0.6);
+    
+}
+
+.cartao .informacoes .nome{
+
+    
+    color: #000000;
+    font-size: 20px;
+
+}
+
+.cartao .informacoes .vida{
+    
+    padding: 6px;
+    border-radius: 20px;
+    color: #000000;
+
+}
+
+.container-img{
+ 
+    text-align: center;  
+    transition: filter 0.5s ease;
+
+}
+
+.container-img:hover{
+
+    filter: grayscale(100%);
+    
+
+}
+
+.cartao .img-personagens{
+
+    padding: 12px;
+    max-height: 320px;
+    max-width: 100%;
+
+}
+
+.lista-personagens .descricao{
+
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    max-height: 120px;
+    overflow-y: auto;
+    background-color: rgba(255,250,240, 0.8);
+
+}
+
+.cartao .descricao .titulo{
+
+    font-size: 18px;
+    padding: 8px;
+    text-align: center;
+    color: #000000;
+
+}
+
+.cartao .descricao .texto{
+
+    font-size: 18px;
+    padding: 8px;
+
+}
+
+.button-container {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+
+}
+
+button {
+
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+
+button img {
+
+    width: 30px;
+    height: auto;
+
+}
+
+@supports(scrollbar-color: auto){
+
+    .scrollbox{
+
+        scrollbar-width: none;
+        border: solid rgba(77, 57, 46, 0.6);
+        
+
+    }
+
+}

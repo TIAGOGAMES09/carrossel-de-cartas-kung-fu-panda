@@ -1,0 +1,47 @@
+@media (max-width: 620px){
+
+    .slider{
+
+        padding: 0 15px;
+        gap: 10px;
+
+    }
+
+
+    .btn-seta{
+
+        width: 20px;
+        height: 20px;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+    .lista-personagens{
+
+        max-height: 450px;
+
+    }
+  
+    .cartao .img-personagens{
+
+        max-width: 200px;
+
+    }
+    .cartao .informacao .nome{
+
+        max-width: 50%;
+        font-size: 18px;
+
+    }
+    .cartao .informacao .vida{
+
+        max-width: 50%;
+        font-size: 14px;
+
+    }
+
+
+}
