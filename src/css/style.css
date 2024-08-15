@@ -112,7 +112,7 @@ body{
 
 .fundo-2{
 
-    background: url(../img/fundo-2.jpg);
+    background: url(../img/fundo-2.jpg) no-repeat;
     box-shadow: rgb(147,112,219) 0px 22px 70px 4px;
 
 }
